@@ -443,6 +443,10 @@
         -ms-border-radius: 20%;
         -o-border-radius: 20%;
     }
-
+    #Certificate img{
+        width: 350px;
+        height: 3500px;
+        margin: 0px;
+    }
 }
 
