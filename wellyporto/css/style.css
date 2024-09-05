@@ -1,0 +1,277 @@
+:root{
+    --maincolor :#3F3636;
+    --secondaryColor:#272222;
+    --acsentColor:#F5A80F;
+    --navColor:#44F45E;
+    --heroColor:#fff;
+    --skillCardColor: #261a1a;
+    --font-style: "Ubuntu", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--maincolor);
+    min-height: 800px;
+    font-family: var(--font-style);
+    scrollbar-width: 5px;
+}
+
+/* Navbar */
+.nav-link.active{
+    color:var(--navColor) !important;
+    font-weight: 700;
+    font-size: large;
+    font-family:var(--font-style) ;
+    text-align: justify;
+}
+.nav-mystyle{
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.navcolorbar1{
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+    font-size: large;
+    font-family:var(--font-style) ;
+    text-align: justify;
+}
+.navcolorbar2{
+    color: var(--heroColor) !important;
+    font-family:var(--font-style) ;
+    font-weight: 700;
+    font-style: italic;
+    text-align: end;
+}
+/* End Navbar */
+
+/* Hero*/
+.color-acsent{
+    color:var(--acsentColor);
+    font-weight: bold;
+}
+.style-acsent{
+    color: var(--acsentColor);
+    font-style: italic;
+    font-weight: bold;
+}
+.style-acsent2{
+    color: var(--heroColor);
+    font-style: italic;
+    font-weight: bold;
+}
+#hero{
+    color: var(--heroColor);
+    min-height: 100vh;
+    padding-top: 85px;
+}
+#hero h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#hero h2{
+    font-size: 2rem;
+    margin-top:30px;
+}
+#hero p{
+    font-size: 0.98rem;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* Button CTA */
+.button-custom1{
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: var(--heroColor);
+    min-width: 200px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.button-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 165, 0, .8);
+}
+.Download{
+    color: var(--heroColor) !important;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.social-icon img{
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding-top: auto;
+}
+/* End Button CTA */
+/* End Hero */
+
+/* About*/
+hr{
+    width: 35%;
+    height: 0px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+#about{
+    height: :100%;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: var(--heroColor);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#about h1{
+    color: var(--heroColor) ;
+    font-family: var(--font-style-h1);
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+}
+.tagline{
+    font-size: small;
+    font-style: italic;
+}
+.Dabout{
+    font-weight: 700;
+    color: var(--acsentColor);
+}
+#about p span{
+    font-style: italic;
+}
+#about table{
+    margin: 5px;
+    height: auto;
+    width: 100%;
+}
+/* End About */
+
+/* Skills */
+#Skill table{
+    height: auto;
+    width: 100%;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 600;
+}
+#Skill table img{
+    height: 50px;
+    width: 50px;
+}
+#Skill img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+#Skill h1{
+    color: var(--heroColor) ;
+    font-family: var(--font-style-h1);
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+}
+#Skill h3{
+    color: var(--heroColor) ;
+    font-family: var(--font-style-h1);
+    font-weight: 700;
+}
+#Skill .card{
+  background-color: var(--skillCardColor);
+  height: 100%;
+  font-style: italic;
+  color: var(--heroColor);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#Skill .card img{
+    height: 50%;
+    width: 42%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    image-resolution: 100%;
+}
+#Skill .card:hover{
+    background-color: var(--acsentColor);
+}
+.skills-konten{
+    margin-top: 120px;
+}
+/* End Skills */
+
+/* Certificate */
+#Certificate{
+    margin-top: -170px;
+    padding-top: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+#Certificate p,a{
+    color: var(--acsentColor)!important;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+}
+#Certificate h1{
+    color: var(--heroColor) ;
+    font-family: var(--font-style-h1);
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+}
+/* End Certificate */
+
+/* Gallery Portofolio */
+#gallery .container{
+    padding: 80px 10px;
+}
+#gallery img{
+    width: 100%;
+    padding: 10px;
+}
+#gallery video{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+#gallery h1{
+    color: var(--heroColor) ;
+    font-family: var(--font-style-h1);
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+}
+#tagline p{
+    color: var(--heroColor);
+    font-weight: 700;
+    font-size: 2rem;
+}
+#tagline span{
+    color: var(--acsentColor);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#tagline img{
+    width: 70px;
+    height: 70px;
+}
+/* End Portofolio */
