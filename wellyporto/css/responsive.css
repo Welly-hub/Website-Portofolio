@@ -433,6 +433,16 @@
         height: 50px !important;
         padding-bottom: 40px;
     }
+    #gallery .carousel-inner img{
+        width: 300px !important;
+        height: 400px !important;
+        padding-top: 10px;
+        border-radius: 20%;
+        -webkit-border-radius: 20%;
+        -moz-border-radius: 20%;
+        -ms-border-radius: 20%;
+        -o-border-radius: 20%;
+    }
 
 }
 
